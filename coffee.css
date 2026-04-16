@@ -1,0 +1,90 @@
+body{
+background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+    background-size:cover;
+background-repeat: no-repeat;
+
+}
+
+.menu{ 
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: burlywood;
+    width: 700px;
+    height: 1050px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.menu p{
+     font-style: italic;
+    font-weight: 600;
+    font-size: large;
+}
+h1{
+    font-size: 40px;
+    font-family: Impact, serif;
+    color: black;
+}
+.menu h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+        font-family: Impact, serif}
+.menu h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+     font-family: Impact, serif;
+}
+
+.list1{
+ 
+    font-size: x-large;
+    display: flex;
+  gap: 350px;
+    list-style: none;
+}
+.coffe{
+    font-style: normal; 
+    list-style: none;
+}
+.pricecoffee {
+  
+list-style: none;
+}
+.list2{
+
+    font-size: x-large;
+    display: flex;
+    gap: 350px;
+    list-style: none;
+}
+.desserts{
+
+    list-style: none;
+}
+.pricedesserts {
+
+list-style: none;
+}
+.hr1{
+  border: none;
+  border-bottom: 4px solid brown;
+  width: 90%;     
+  margin: 10px auto;
+}
+.hr2{
+  border: none;
+  border-top: 4px solid brown;
+  width: 90%;     
+  margin: 10px auto;
+}
+
+footer a{
+    color: black;
+}
+.freecodecamp{
+    font-style:normal;
+    text-align: center;
+}
